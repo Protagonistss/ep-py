@@ -1,0 +1,15 @@
+[project]
+name = "ep-py"
+version = "0.1.0"
+description = "Python 教学仓库"
+requires-python = ">=3.12"
+dependencies = []
+
+[dependency-groups]
+dev = ["pytest>=8.0"]
+
+# PyPI 镜像(国内加速):已内置,学员无需任何配置
+# 想用其他镜像/官方源,可设置环境变量 UV_DEFAULT_INDEX 覆盖
+[[tool.uv.index]]
+url = "https://repo.huaweicloud.com/repository/pypi/simple/"
+default = true
