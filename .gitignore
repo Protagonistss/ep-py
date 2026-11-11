@@ -33,3 +33,4 @@ Desktop.ini
 # ---- 本地杂项 ----
 *.log
 .env
+.mcp.json
